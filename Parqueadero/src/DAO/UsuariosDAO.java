@@ -5,10 +5,15 @@
  */
 package DAO;
 
+import MODELO.Usuario;
+import java.util.LinkedList;
+
 /**
  *
  * @author gube
  */
 public class UsuariosDAO {
+    private final LinkedList<Usuario> listaEstudiante= new LinkedList<>();
+    
     
 }
